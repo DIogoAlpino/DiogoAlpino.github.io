@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(111, 138, 246);
+    padding: 3%;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    text-align:center;
+}
+
+#dadosGerais {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.resiliencia {
+    font-size: 2em;
+}
+
+.resConf {
+    font-size: 3em;
+}
+
+.ingles {
+    font-size: 40px;
+}
+
+h2,ol {
+    line-height: 50px;
+}
+
+ol {
+    font-size: 2em;
+}
+
+#fotoDePerfil {
+    float: left;
+    padding: 10px;
+    height: 280px;
+    background-color: purple;
+}
+
+.image-container {
+    height: 300px;
+    position: relative;
+}
+
+#sobreMim {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+}
+
+ul li:nth-child(odd) {
+    background-color: brown;
+}

@@ -13,47 +13,15 @@ Um índice com links internos para as diferentes seções do seu portfólio. -->
   <head>
     <meta charset="UTF-8">
     <title>Diogo Alpino Costa</title>
-    <style>
-      
-      body {
-        background-color: rgb(111,138,246);
-      }
-      h1 {
-        font-family: Georgia, 'Times New Roman', Times, sans-serif;
-      }
-
-      #dadosGerais {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        text-decoration: underline;
-      }
-
-      .resiliencia {
-        font-size:2em;
-      }
-
-      .resConf {
-        font-size:3em;
-      }
-
-      .ingles {
-        font-size:40px;
-      }
-
-      h2, ol {
-        line-height: 50px;
-      }
-
-      ol {
-        font-size: 2em;
-      }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <h1> <strong>Diogo Alpino Costa</strong></h1>
-    <img id = "fotoDePerfil" src="/Profile.jpg" alt="Foto atual de perfil" width="300px">
+  <body> <div>
+    <h1>Diogo Alpino Costa</h1>
+    <div class="image-container">
+    <img id = "fotoDePerfil" src="/Profile.jpg" alt="Foto atual de perfil">
+    <p id="sobreMim"><em>Formado em Engenharia Mecânica pela PUC Minas <br> Estudante de Desenvolvimento WEB na Trybe <br> </em></p>
+  </div>
+  </div>
     <h2>Indice</h2>
     <ol>
         <li><a href="#dadosGerais">Dados Gerais<a></li>
@@ -62,7 +30,6 @@ Um índice com links internos para as diferentes seções do seu portfólio. -->
         <li><a href="#sitePreferido">Meu site preferido<a></li>
     </ol> 
     <h2 id="dadosGerais"> <em>27 anos <br> Brasileiro <br> Belo Horizonte/MG</em></h2>
-    <p id="sobreMim"><em>Formado em Engenharia Mecânica pela PUC Minas <br> Estudante de Desenvolvimento WEB na Trybe <br> </em></p>
     <h3 id="habilidades">Habilidades que mais me orgulho</h3>
     <ul>
         <li class="resiliencia">Resiliência</li>
